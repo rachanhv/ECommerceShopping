@@ -1,0 +1,119 @@
+<android.support.v7.widget.CardView
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/card_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:elevation="4dp"
+    android:layout_margin="3dp">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/dealProductImage"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/album_cover_height"
+            android:src="@mipmap/ic_launcher"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:clickable="true"
+            android:scaleType="fitXY" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/horzontaildivider" />
+
+        <TextView
+            android:id="@+id/dealProductName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dealProductImage"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:paddingLeft="@dimen/album_title_padding"
+            android:paddingRight="@dimen/album_title_padding"
+            android:text="Name"
+            android:gravity="center"
+            android:paddingTop="@dimen/album_title_padding"
+            android:textColor="@color/album_title"
+            android:textSize="@dimen/album_title" />
+
+        <TextView
+            android:id="@+id/dealProductPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dealProductName"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:text="Price"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingLeft="@dimen/album_title_padding"
+            android:paddingRight="@dimen/album_title_padding"
+            android:textSize="@dimen/songs_count" />
+
+        <TextView
+            android:id="@+id/dealProductId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dealProductPrice"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:text="id"
+            android:visibility="gone"
+            android:gravity="center"
+            android:paddingLeft="@dimen/album_title_padding"
+            android:paddingRight="@dimen/album_title_padding"
+            android:textSize="@dimen/songs_count" />
+
+        <TextView
+            android:id="@+id/dealProductDiscountPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dealProductId"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:text="discountPrice"
+            android:visibility="gone"
+            android:gravity="center"
+            android:paddingLeft="@dimen/album_title_padding"
+            android:paddingRight="@dimen/album_title_padding"
+            android:textSize="@dimen/songs_count" />
+
+        <TextView
+            android:id="@+id/dealProductImageName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/dealProductId"
+            android:paddingBottom="@dimen/songs_count_padding_bottom"
+            android:text="imagename"
+            android:visibility="gone"
+            android:gravity="center"
+            android:paddingLeft="@dimen/album_title_padding"
+            android:paddingRight="@dimen/album_title_padding"
+            android:textSize="@dimen/songs_count" />
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
+     <!--   <TextView
+            android:id="@+id/txtSurname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Surname"
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:layout_marginLeft="5dp"
+            android:layout_centerVertical="true"
+            android:layout_alignEnd="@+id/txtName" />-->
+
+       <!-- <TextView
+            android:id="@+id/txtEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:textSize="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="150dp"
+            android:layout_alignBaseline="@id/txtName"/>-->

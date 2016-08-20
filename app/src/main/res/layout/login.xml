@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="vinformax.vinmart.product.ProductCart"
+    android:id="@+id/mainLayout"
+    >
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <!--  Header  Starts-->
+
+
+                <LinearLayout android:id="@+id/title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="60dp"
+                    android:layout_marginBottom="20dp"
+                    android:paddingBottom="5dip"
+                    android:gravity="center|bottom"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:scaleType="fitXY"
+                        android:background="@mipmap/shopicon"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="VinMart..."
+                        android:textSize="24dp"
+                        android:textColor="#1C8ADB"
+                        android:textStyle="bold|italic"/>
+
+                    <ImageView
+                        android:layout_width="95dp"
+                        android:layout_height="86dp"
+                        android:scaleType="fitEnd"
+                        android:id="@+id/signup1"
+                        android:background="@mipmap/signupicon"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_alignParentEnd="true" />
+
+                </LinearLayout>
+
+                <!--  Header Ends -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="@dimen/activity_horizontal_margin"
+                    android:layout_gravity="center"
+                    android:orientation="vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp"
+                    >
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:orientation="vertical"
+                        android:layout_marginTop="30dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        >
+
+                        <EditText
+                            android:id="@+id/username1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+
+                            android:hint="@string/hint_email"
+                            android:inputType="textEmailAddress"
+                            android:padding="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/input_login"
+                            android:background="@drawable/buttonshapewhitewithcorners"
+                            android:textColorHint="@color/input_login_hint"
+                            android:backgroundTint="@color/bg_login" />
+
+                        <EditText
+                            android:id="@+id/password1"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonshapewhitewithcorners"
+                            android:hint="@string/hint_password"
+                            android:inputType="textPassword"
+                            android:padding="10dp"
+                            android:singleLine="true"
+                            android:textColor="@color/input_login"
+                            android:textColorHint="@color/input_login_hint"
+                            android:backgroundTint="@color/bg_login" />
+
+                        <!-- Login Button -->
+
+                        <Button
+                            android:id="@+id/forgotpassword"
+                            android:layout_width="fill_parent"
+                            android:layout_height="20dp"
+                            android:layout_marginTop="20dip"
+                            android:background="@null"
+                            android:layout_gravity=""
+                            android:text="@string/btn_link_to_register"
+                            android:textAllCaps="false"
+                            android:textColor="@color/input_login_hint"
+                            android:textSize="15dp"
+                            android:textColorHint="@color/input_login_hint" />
+
+                        <Button
+                            android:id="@+id/signin1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="15dip"
+                            android:gravity="center"
+                            android:background="@drawable/buttonshapewhitewithcorners"
+
+                            android:text="@string/btn_login"
+                            android:textColor="@color/btn_login"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/bg_login" />
+
+                        <!-- Link to Login Screen -->
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top"
+                        android:orientation="horizontal"
+                        android:layout_marginTop="24dp"
+                        android:paddingLeft="20dp"
+                        android:gravity="center|top"
+                        android:paddingRight="20dp" >
+                        <ImageView
+                            android:id="@+id/btnFbLogin"
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:scaleType="fitXY"
+                            android:layout_marginRight="10dp"
+                            android:background="@mipmap/fbbicon"/>
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:scaleType="fitCenter"
+                            android:layout_gravity="center"
+                            android:background="@mipmap/oricon"/>
+
+                        <ImageView
+                            android:layout_width="40dp"
+                            android:layout_height="40dp"
+                            android:scaleType="fitXY"
+                            android:id="@+id/bgoogleLogin"
+                            android:layout_marginLeft="10dp"
+                            android:background="@mipmap/gplus"/>
+                    </LinearLayout>
+                </LinearLayout>
+           <!--     <LinearLayout
+                    android:id="@+id/mainProgressGif"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/white"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:visibility="gone">
+                    <gif.ProgressBarGif
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>-->
+            </TableLayout>
+        </ScrollView>
+    </android.support.design.widget.CoordinatorLayout>
+

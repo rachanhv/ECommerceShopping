@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="vinformax.vinmart.product.ProductCart">
+
+  <android.support.design.widget.AppBarLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:theme="@style/AppTheme.AppBarOverlay">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+  </android.support.design.widget.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/etcontactName"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:hint="Contact Name"
+        android:singleLine="true"
+        android:inputType="textPersonName"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/etcountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etcontactName"
+        android:layout_centerHorizontal="true"
+        android:hint="Country"
+        android:singleLine="true"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/etaddressOne"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etcountry"
+        android:layout_centerHorizontal="true"
+        android:hint="Address Line 1"
+        android:inputType="textPostalAddress"
+        android:maxLength="50"/>
+
+    <EditText
+        android:id="@+id/etaddressTwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etaddressOne"
+        android:layout_centerHorizontal="true"
+        android:hint="Address Line 2"
+        android:inputType="textPostalAddress"
+        android:maxLength="50"/>
+
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etaddressTwo"
+        android:layout_centerHorizontal="true"
+        android:hint="City" />
+
+    <EditText
+        android:id="@+id/etstate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/city"
+        android:layout_centerHorizontal="true"
+        android:hint="State" />
+
+    <EditText
+        android:id="@+id/etpinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etstate"
+        android:layout_centerHorizontal="true"
+        android:hint="Zip/Postal Code"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etmobileNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etpinCode"
+               android:inputType="number"
+        android:hint="Mobile Number" />
+    <!--</TableRow>-->
+
+    <EditText
+        android:id="@+id/etemailId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/etmobileNumber"
+        android:layout_centerHorizontal="true"
+        android:hint="Email Id"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/Address_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshapewhitewithcorners"
+        android:text="Submit"
+        android:textColor="@color/input_login"
+        android:textColorHint="@color/input_login_hint"
+        android:backgroundTint="@color/bg_login"
+        android:textSize="15sp"
+        android:layout_below="@+id/etemailId"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>

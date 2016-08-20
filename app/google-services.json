@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "905234517243",
+    "firebase_url": "https://vinmart-1366.firebaseio.com",
+    "project_id": "vinmart-1366",
+    "storage_bucket": "vinmart-1366.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:905234517243:android:d65cfcf6705b9d9c",
+        "android_client_info": {
+          "package_name": "vinformax.vinmart"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "905234517243-thvl98q7allunir3o6rt98nqsjg7fqiq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "vinformax.vinmart",
+            "certificate_hash": "B4F7FA8694038981D85051A2EA07A9CBEBBB2ED8"
+          }
+        },
+        {
+          "client_id": "905234517243-rqkhpcgvn80j0bee0glocpq01tal7uh4.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "905234517243-mkn26p2k0u7flold3f1sdnbetl3v9b2s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-WFh4w2txqYpmDumbPk5NH1-g36yLJ2A"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "905234517243-rqkhpcgvn80j0bee0glocpq01tal7uh4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

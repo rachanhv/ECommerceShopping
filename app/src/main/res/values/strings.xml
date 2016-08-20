@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">VinMart</string>
+    ////////////// Cardview string////////////////////<string name="navigation_drawer_open">Open navigation drawer</string>
+   <string name="mail_id">emailid</string>
+   <string name="username">username</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>////////////// Cardview
+    string////////////////////<string name="Home">Home</string>
+    <string name="Categories">Categories</string>
+ <string name="Product">Product</string>
+ ////////////// Cardview string////////////////////<string name="Favourite">Favourite</string>
+    <string name="Account">Account</string>////////////// Cardview string////////////////////<string name="Address">Address</string>
+    ////////////// Cardview string////////////////////<string name="MyProfile">My Profile</string>
+    <string name="MyOrder">My Order</string>////////////// Cardview string////////////////////<string name="Cart">Cart</string>
+    <string name="Setting">Settings</string>////////////// Cardview string////////////////////<string name="AboutUs">About Us</string>
+    ////////////// Cardview string////////////////////
+
+    <string name="Logout">Log out</string>
+    <string name="Share">Share</string>////////////// Cardview string////////////////////
+    ////////////// Cardview string////////////////////
+    <string name="Mystatus">Mystatus</string>
+
+    <string name="cd_main_image">main image</string>    <string name="action_add_favourite">Add to
+    Favourites</string>
+        <string name="action_play_next">Play Next</string>
+        <string name="backdrop_title">LOVE MUSIC</string>
+        <string name="backdrop_subtitle">This season top 20 albums</string>
+    <string name="welcome">Welcome!</string>
+    <string name="fontello_logo">&#xe802;</string>
+
+
+    //////////////  Cardview string////////////////////
+
+    <string-array name="nav_drawer_items">
+        <item>Home</item>
+        <item>Categories</item>
+     <item>Product</item>
+        <item>Favourite</item>
+        <item>Cart</item>
+        <item>My Profile</item>
+        <item>Settings</item>
+        <item>About Us</item>
+        <item>Logout</item>
+    </string-array>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+    <string name="login"></string>
+    <string name="changecust"><item name="android:textSize">10sp</item></string>
+    <string name="search">Search</string>
+    <string name="threeDotsAction">Get Token</string>
+    <string name="title_activity_flashscreen">Flashscreen</string>
+    <string name="title_activity_flashhomescreen">Flashhomescreen</string>
+    <string name="title_activity_imagedownload">Imagedownload</string>
+
+    <!-- Action Bar action items -->
+    <string name="action_search">Search</string>
+    <string name="action_dropdownbasket" />
+    <string name="action_spinner" />
+    <string name="action_Delete"></string>
+    <string name="action_basket"></string>
+    <string name="action_Login">Login</string>
+    <string name="search_hint">Search</string>
+    <string name="flag_description">Country Flag</string>
+    <string name="search_settings">Search Product Names</string>
+
+    <color name="blue">#D8D8D8</color>
+
+    <!-- ‎<color name="grey">#FF0000</color> -->
+
+    <string name="title_activity_subcategoriesitem">Subcategoriesitem</string>
+    <string name="title_activity_loadingpage">Login Screen</string>
+    <string name="title_activity_cartdetails">Cart</string>
+    <string name="title_activity_editaddadsimages">VinMart</string>
+
+    <!-- Favourite Screens -->
+    <string name="favouriteB">Add To Cart</string>
+    <string name="favouriteTv_select">Select</string>
+    <string name="favouriteTv_Item">Products</string>
+    <string name="favouriteTv_List">List</string>
+    <string name="favouriteTv_Remove">Remove</string>
+    <string name="favourite_listTv_TextView">TextView</string>
+
+    <!-- large layout -->
+    <string name="cartsaving">100</string>
+    <string name="cartsavingRs">Savings :Rs</string>
+    <string name="reset_txt"><u>Reset</u></string>
+    <string name="forgetpwd_txt">Forgot Your Password?</string>
+    <string name="newuser_txt"><u>New User</u></string>
+    <string name="desc_list_item_icon">Item Icon</string>
+
+
+    <!--Login String-->
+    <string name="sign_in_txt">SIGN IN</string>
+    <string name="register_txt">REGISTER</string>
+    <string name="Registration">Registration</string>
+
+
+   <string name="server_client_id">905234517243-thvl98q7allunir3o6rt98nqsjg7fqiq.apps.googleusercontent.com</string>
+   <!--<string name="facebook_app_id">1673742206236147</string>-->
+   <string name="facebook_app_id">1167734823298170</string>
+
+    <string name="facebook_text">Facebook</string>
+    <string name="google_text">Google</string>
+    <string name="hint_email">Email </string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_link_to_register">Forgot password?</string>
+    <string name="btn_link_to_login">Already registred! Login Me.</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+
+    <string name="descr_overflow_button">descr_overflow_button</string>
+</resources>

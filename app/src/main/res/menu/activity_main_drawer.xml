@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+     <!--   <item
+            android:id="@+id/HomeAds"
+            android:icon="@drawable/home"
+            android:title="@string/Home" />-->
+        <item
+            android:id="@+id/menuCategories"
+            android:icon="@drawable/categories"
+            android:title="@string/Categories" />
+
+      <!--  <item
+            android:id="@+id/Products"
+            android:icon="@drawable/product"
+            android:title="@string/Product"/>
+-->
+        <item
+            android:id="@+id/menuFavourite"
+            android:icon="@drawable/favouriteb"
+            android:title="@string/Favourite"/>
+
+       <!-- <item
+            android:id="@+id/menuCart"
+            android:icon="@drawable/cartb"
+            android:title="@string/Cart"
+             />-->
+       <!-- <item
+            android:id="@+id/Acount"
+            android:icon="@drawable/login"
+            android:title="@string/Account"/>-->
+        <item
+            android:id="@+id/login"
+            android:icon="@drawable/login"
+            android:title="Login"/>
+       <!-- <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />-->
+
+     <item
+            android:id="@+id/Address"
+         android:icon="@drawable/shapp360"
+            android:title="@string/Address" />
+
+<!--
+        <item
+            android:id="@+id/menuAboutUs"
+            android:title="@string/AboutUs" />-->
+
+    </group>
+<!--
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>-->
+
+</menu>

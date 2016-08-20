@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<searchable xmlns:android="http://schemas.android.com/apk/res/android"
+    android:label="@string/app_name"
+    android:hint="@string/search_hint"
+    android:icon="@drawable/ic_search"
+    android:searchSettingsDescription="@string/search_settings"
+    android:inputType="text"
+    android:searchSuggestAuthority="online.shopping.usersgrocery.CountryContentProvider"
+    android:searchSuggestIntentAction="android.intent.action.VIEW"
+    android:searchSuggestIntentData="content://online.shopping.usersgrocery.CountryContentProvider/countries"
+    android:searchSuggestSelection=" ?"
+    android:searchSuggestThreshold="1"
+    android:includeInGlobalSearch="true" >
+
+<!--     Commented/Added by C.Ramesh on 20Jul2015 for Bug id : 82 & Purpose : spelling mistake for "Search Subcatagory Item" need to change like "Search Subcategory Item" 15.7.15 -->
+<!-- Commented/Added by C.Ramesh on 20Jul2015 for Bug id : 82 & Purpose : spelling mistake for "Search Subcatagory Item" need to change like "Search Subcategory Item" 17.7.15 -->
+
+</searchable>

@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+            <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+                  <item name="windowNoTitle">true</item>
+                <item name="colorPrimary">@color/colorPrimary</item>
+                <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+                <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppAddressActivity" parent="@style/Theme.AppCompat">
+        <item name="android:colorBackground">@color/colorPrimary</item>
+
+    </style>
+
+
+
+        <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+        <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="ImageViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:scaleType">centerCrop</item>
+        <item name="android:contentDescription">@string/cd_main_image</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingLeft">4dp</item>
+        <!-- <item name="android:paddingBottom">8dp</item> -->
+        <item name="android:paddingRight">4dp</item>
+        <item name="android:cropToPadding">true</item>
+    </style>
+    <style name="SplashScreenStyle">
+        <item name="android:windowBackground">@color/splash_screen_background</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowAnimationStyle">@style/FadeoutSplashScreenStyle</item>
+    </style>
+    <style name="FadeoutSplashScreenStyle">
+        <item name="android:windowExitAnimation">@anim/splash_screen_move_out</item>
+    </style>
+
+
+
+</resources>

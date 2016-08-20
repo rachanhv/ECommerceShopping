@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:padding="2dp"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+  <!--  <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+
+        android:paddingTop="@dimen/nav_header_vertical_spacing"
+        android:background="@drawable/rachangowda" />-->
+
+  <com.github.siyamed.shapeimageview.CircularImageView
+      android:id="@+id/nav_userimage"
+      android:layout_width="80dp"
+      android:layout_height="80dp"
+      android:src="@drawable/shapp360"
+      app:siRadius="6dp"
+      app:siBorderWidth="6dp"
+      app:siBorderColor="@color/white"
+      app:siSquare="true"/>
+
+  <!--<com.csform.android.uiapptemplate.view.siv.ShapeImageView
+      android:id="@+id/imageView"
+      style="@style/ImageViewStyle"
+      android:layout_width="0dp"
+      android:layout_height="match_parent"
+      android:layout_margin="30dp"
+      android:layout_weight="1"
+      android:background="@drawable/rachangowda"
+      app:siShape="@raw/a" />-->
+
+  <TextView
+      android:id="@+id/nav_username"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:paddingTop="@dimen/nav_header_vertical_spacing"
+      android:text="@string/username"
+      android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+  <TextView
+      android:id="@+id/nav_mailid"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/mail_id" />
+
+</LinearLayout>
